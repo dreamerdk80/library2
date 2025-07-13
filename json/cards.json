@@ -17,14 +17,14 @@
             "title": "PHP 8. Наиболее полное руководство (в подлиннике)",
             "image": "images/books/php/Koterov_D._V._Simdyanov_I._V._-_PHP_8._Naibolee_polnoe_rukovodstvo_(V_podlinnike)_-_2023.png",
             "description": "PHP 8. Наиболее полное руководство (в подлиннике)",
-            "file": "../books/php/Koterov_D._V.,_Simdyanov_I._V._-_PHP_8._Naibolee_polnoe_rukovodstvo_(V_podlinnike)_-_2023.pdf"
+            "file": "/books/php/Koterov_D._V.,_Simdyanov_I._V._-_PHP_8._Naibolee_polnoe_rukovodstvo_(V_podlinnike)_-_2023.pdf"
         },
         {
             "author": "Эрик А. Манн",
             "title": "Рецепты PHP. Для профессиональных разработчиков",
             "image": "images/books/php/Erik_A._Mann_-_Recepty_PHP_Dlya_professional'nyh_razrabotchikov.png",
             "description": "Рецепты PHP. Для профессиональных разработчиков",
-            "file": "../books/php/Mann_-_Recepty_PHP_Dlya_professionalnyh_razrabotchikov.pdf"
+            "file": "/books/php/Mann_-_Recepty_PHP_Dlya_professionalnyh_razrabotchikov.pdf"
         }
     ],
     "javascript": [
