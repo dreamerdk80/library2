@@ -1,5 +1,4 @@
 const domainName = window.location.hostname
-console.log(domainName)
 const homeBtn = document.querySelectorAll(".home")
 const langDescription = document.querySelector(".lang-description")
 const cards = document.querySelector(".cards")
@@ -83,7 +82,7 @@ function generateReadBookHTML(file) {
         <iframe class="reader-iframe" src="${srcBook}"></iframe>
         <button class="reader-close-btn" onclick="closeReader()">Закрыть</button>
     `
-    console.log(domainName)
+    
     reader.style.display = "flex"
     reader.showModal()
 }
