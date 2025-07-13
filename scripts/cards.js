@@ -1,4 +1,5 @@
 const domainName = window.location.hostname
+console.log(domainName)
 const homeBtn = document.querySelectorAll(".home")
 const langDescription = document.querySelector(".lang-description")
 const cards = document.querySelector(".cards")
