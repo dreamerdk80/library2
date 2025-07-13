@@ -89,6 +89,7 @@ function generateReadBookHTML(file) {
 
 function closeReader() {
     window.closeModalBook.close()
+    reader.innerHTML = ""
     reader.style.display = "none"
 }
 
