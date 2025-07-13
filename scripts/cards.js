@@ -77,7 +77,7 @@ function closeModalWindow() {
 }
 
 function generateReadBookHTML(file) {
-    let srcBook = "https://" + domainName + file
+    let srcBook = "https://" + domainName + "/library2" + file
     reader.innerHTML = `
         <iframe class="reader-iframe" src="${srcBook}"></iframe>
         <button class="reader-close-btn" onclick="closeReader()">Закрыть</button>
