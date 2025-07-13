@@ -1,4 +1,4 @@
-const domainName = window.Location.hostname
+const domainName = window.location.hostname
 const homeBtn = document.querySelectorAll(".home")
 const langDescription = document.querySelector(".lang-description")
 const cards = document.querySelector(".cards")
@@ -77,11 +77,12 @@ function closeModalWindow() {
 }
 
 function generateReadBookHTML(file) {
+    let srcBook = "https://" + domainName + file
     reader.innerHTML = `
-        <iframe class="reader-iframe" src="${domainName} + ${file}"></iframe>
+        <iframe class="reader-iframe" src="${srcBook}"></iframe>
         <button class="reader-close-btn" onclick="closeReader()">Закрыть</button>
     `
-
+    console.log(domainName)
     reader.style.display = "flex"
     reader.showModal()
 }
