@@ -15,7 +15,7 @@ window.addEventListener("load", async () => {
 
     generateCards()
 
-    
+
 })
 
 function generateDescriptionHTML(card) {
@@ -77,12 +77,12 @@ function closeModalWindow() {
 }
 
 function generateReadBookHTML(file) {
-    let srcBook = "https://" + domainName + "/library2" + file
+    let srcBook = "https://" + domainName + file
     reader.innerHTML = `
         <iframe class="reader-iframe" src="${srcBook}"></iframe>
         <button class="reader-close-btn" onclick="closeReader()">Закрыть</button>
     `
-    
+
     reader.style.display = "flex"
     reader.showModal()
 }
@@ -99,11 +99,11 @@ function generateCards() {
             const language = langBtn[i].id
             const card = result[language]
             cards.innerHTML = ""
-            
+
             if (links.style.top == "92px") {
                 links.style.top = "-3000px"
             }
-            
+
             window.scrollTo(0, 0)
 
             langDescription.innerHTML = generateDescriptionHTML(card[0])
